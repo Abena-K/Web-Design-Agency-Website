@@ -1,0 +1,76 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 50px 50px 0px 50px;
+  background-color: whitesmoke;
+  display: flex;
+  flex-direction: column;
+  min-height: 95vh;
+}
+
+.main{
+  flex: 1;
+  
+}
+
+.card-title{
+  font-family: tahoma, sans-serif;
+}
+
+h1{
+  font-size: 4rem;
+}
+
+.creative{
+  color: blueviolet;
+}
+
+footer{
+  color: blueviolet;
+  text-align: right;
+}
+
+.tile-image{
+  float: left;
+  height: 200px;
+  margin-right: 50px;
+}
+
+.card{
+  width: 45%;
+}
+
+.left{
+  float: left;
+}
+
+.right{
+  float: right;
+} 
+
+
+@media (max-width: 680px) {
+  .logo{
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  .card{
+    width: 100%;
+    display: block;
+    margin-bottom: 25px;
+    text-align: justify;
+  }
+  
+  .card .logo{
+    width: 100%;
+    display: inline;
+    margin-bottom: 15px;
+    object-fit: cover;
+  }
+}
+
+
